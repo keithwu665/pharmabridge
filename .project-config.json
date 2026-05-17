@@ -1,0 +1,41 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3KVUcvtm8roQLHR.1e48e2ddb66d:U8L4Tp8sX4c9olRdQwh5@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/nBtibCoxVyFrgfLdL2t8dH?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310419663029851344/nBtibCoxVyFrgfLdL2t8dH",
+    "access_key_id": "ASIAZV3A2ECZFBJNXN5O",
+    "secret_access_key": "M4x0TN/6GwMq8e30BVst9UKH+GrSWO9WoQxnQ35g",
+    "session_token": "IQoJb3JpZ2luX2VjENX//////////wEaCXVzLWVhc3QtMSJHMEUCIHvShrYHgrsIVWNCOGO3jYlUDeYy0c7ub3UGRvBHbE8IAiEAqiGrZo6EZ+zbVVorMmHvKl9mhgXkzSKvWRbutfBXxV4q/wMInf//////////ARAEGgw2NjUzODYwOTg4NjYiDIlkjeSJmb3a8DDtmCrTA3ELZRr9Czg4lGouZWn81xPY5FrReVTvfVgKw7BzGSLMStn811FlgQWjwZGCknfqFf35Auk8kUDhK96GFXb2kWTjbyQvdEXdzXHq5VbPBq5UKz1g/ltbWNZE5D1sGS760SCXvkDW9lkn8snYTUMymaDj4wGPFyHoDpnlpm2uoD3dGk9FYfvnkBlJNNkaaYsd0SdptfZ2Ox+sfGzFIETfdGMfsYcxGI9mAJWV6M2c2MaKR3aKD4ly2lcQlV06o1C1DEGbI7vPXztHk63V05pjKBYFAXXzk7gfkW8rFsNefqXWaHQ+5/Vdpw1pwQbAzkiUG8hrmC8ZAE852IbcddfsseVAre06SKFQpp80dP3BRQhBnXfHtaMdndgSZR/02jgIMTq8rnUEVrkLtn9vJOHeVzE9MWvFYJRr7CYKtsZ9EOL0oxUicmJ5UDT+79XbEWhDSE4xEqO08pAULpdC/0TMNGuby5MUxPFVEsPBy5FG4gYNvv9t7Wppgdbi93EOQ6dsM9LmFjg8tdIy0nvO4ODjvKTv0mTTjwry76TwQYzcKC7/fcuorQlh93Et0KAcB8iYmbrZB0KiRA3sZGUhtXDFU7gj4pkRnLONLl5afq0qv54CryNCMN6DpdAGOp0BAzeRfeuDEzJ2ZXjQsdM48tjXCjpRjC6GJPnbnF84sLvq12ZrNtNSDHdo7bWfdWMGkhB7aofwCSan7fVlk+zCQXSP1bXmq9Tl7DGDlvB3HeWWshK1gjK02FPnbYsa87L6x0Faw02pJI7/HHgkSJRd7+Pi6PgQjuHf7smA62fbGgGcat52AfGNDymFn2OHJj1oBOwhBhcVL5RzvI451Q==",
+    "expiration": "2026-05-17T16:19:42.000Z"
+  },
+  "name": "PharmaBridge",
+  "path": "/home/ubuntu/PharmaBridge",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "2DaxcKibH2rmLYmx2hMFFt",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "a5GwgHR9piR7XpiWqrtjoq",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Keith Wu",
+    "OWNER_OPEN_ID": "4SLU7ieA9pkHejG2A2idGq",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "916e41d6-5f0f-4de2-80e1-0ac9cd8db32d",
+    "VITE_APP_ID": "nBtibCoxVyFrgfLdL2t8dH",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "PharmaBridge: 印度藥品日本個人進口自動化平台",
+    "VITE_FRONTEND_FORGE_API_KEY": "MvWcNaAD56FtqxBaZpDL7V",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
