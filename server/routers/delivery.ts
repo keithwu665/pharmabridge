@@ -183,7 +183,6 @@ export const deliveryRouter = router({
           order: {
             id: order[0].id,
             status: order[0].status,
-            deliveryNotes: order[0].deliveryNotes,
             createdAt: order[0].createdAt,
             updatedAt: order[0].updatedAt,
           },
