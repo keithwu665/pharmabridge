@@ -181,7 +181,7 @@ export const documentsRouter = router({
         }
 
         // Get presigned URL
-        const { url } = await storageGet(doc[0].fileKey!, 3600); // 1 hour expiry
+        const { url } = await storageGet(doc[0].fileKey!);
 
         return {
           success: true,
