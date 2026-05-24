@@ -1,4 +1,4 @@
-import { eq, like, and } from "drizzle-orm";
+import { eq, like, and, desc } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { InsertUser, users, products, orders, chatMessages, notifications, documents } from "../drizzle/schema";
 import { ENV } from './_core/env';
@@ -212,7 +212,7 @@ export async function getUserNotifications(userId: number) {
   const db = await getDb();
   if (!db) return [];
 
-  return await db.select().from(notifications).where(eq(notifications.userId, userId)).orderBy(notifications.createdAt);
+  return await db.select().from(notifications).where(eq(notifications.userId, userId)).orderBy(desc(notifications.createdAt));
 }
 
 export async function markNotificationAsRead(notificationId: number) {
