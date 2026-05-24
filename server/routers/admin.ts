@@ -229,7 +229,7 @@ export const adminRouter = router({
     .input(
       z.object({
         productId: z.number(),
-        stock: z.number().min(0),
+        stockLevel: z.number().min(0),
       })
     )
     .mutation(async ({ input }) => {
@@ -244,12 +244,12 @@ export const adminRouter = router({
       try {
         await db
           .update(products)
-          .set({ stock: input.stock })
+          .set({ stockLevel: input.stockLevel })
           .where(eq(products.id, input.productId));
 
         return {
           success: true,
-          message: `Product stock updated to ${input.stock}`,
+          message: `Product stock updated to ${input.stockLevel}`,
         };
       } catch (error) {
         console.error("Failed to update product stock:", error);
